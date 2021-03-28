@@ -33,7 +33,7 @@ p{
     box-sizing: border-box;
 }
 .wrapper{
-    background: url(../img/фон.jpg);
+    background: url(../img/䮭.jpg);
     display: flex;
     flex-direction: column;
     min-height: 100%;
