@@ -1,0 +1,35 @@
+
+    .box {
+      display: none;
+      background-color:#EDEDED; 
+      color: black; 
+      padding:10px;
+    }
+        
+    .contacts__graph:hover + .box {
+      display: block;
+      color:#1E1F20;
+    }
+    .box {
+  height: 75px;
+  background-color: #EDEDED;
+  color: #fff;
+  padding: 20px;
+  position: relative;
+
+}
+
+.box.arrow-top {
+  margin-top: 20px;
+}
+
+.box.arrow-top:after {
+  content: " ";
+  position: absolute;
+  right: 30px;
+  top: -15px;
+  border-top: none;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid #EDEDED;
+}
